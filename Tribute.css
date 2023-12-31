@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.black-header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.tribute-section {
+    display: flex;
+    background-color: #2ecc71;
+    padding: 20px;
+}
+
+.left-image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+article {
+    color: #000;
+}
+
+.achievements-section {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+}
+
+.green-text {
+    color: #2ecc71;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.green-footer {
+    background-color: #2ecc71;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.black-text {
+    color: #000;
+}
+
+.signature {
+    font-style: italic;
+    margin-top: 10px;
+}
