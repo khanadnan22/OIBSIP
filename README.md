@@ -27,7 +27,7 @@ A tribute page dedicated to a notable personality, providing information about t
 
 ### 4. Login Page
 
-**Technology Used:** HTML, CSS
+**Technology Used:** HTML, CSS ,JavaScript
 
 A basic login page with a clean and responsive design. Users can input their credentials to log in.
 # How to Explore
