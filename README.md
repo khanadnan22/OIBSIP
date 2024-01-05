@@ -28,6 +28,20 @@ A tribute page dedicated to a notable personality, providing information about t
 ### 4. Login Page
 
 **Technology Used:** HTML, CSS ,JavaScript
+ 5: Login_authentication
+a. User Registration:
+Create a function or module to handle user registration.
+Prompt the user to enter a username and password.
+Store the user information securely in local storage (for simplicity).
+b. Password Encryption:
+Use cryptographic libraries (not implemented in this basic example) to hash and salt the user's password before storing it.
+Avoid storing plain text passwords to enhance security.
+c. User Login:
+Create a function or module to handle user login.
+Prompt the user to enter their username and password.
+Compare the entered password with the stored hashed password to verify the login.
+d. Secured Page:
+Implement a basic secured page (not implemented in this basic example) that displays a simple message or content to authenticated users only.
 
 A basic login page with a clean and responsive design. Users can input their credentials to log in.
 # How to Explore
