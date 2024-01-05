@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>View Data</title>
+</head>
+<body>
+    <div class="container">
+        <h2>View Data</h2>
+        <div id="user-list"></div>
+        <button onclick="location.href='secured.html'">Back to Secured Page</button>
+    </div>
+    <footer>
+        <p>Created with ❤ by Adnan</p>
+        <p><a href="https://github.com/khanadnan22/OIB_SIP.git" target="_blank">GitHub</a> | <a href="www.linkedin.com/in/
+        khan-adnan-56a0651b0" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <script>
+        const users = [
+            { username: 'john_doe', password: '********' },
+            { username: 'jane_smith', password: '********' },
+            
+        ];
+        const userListContainer = document.getElementById('user-list');
+        users.forEach(user => {
+            const userItem = document.createElement('div');
+            userItem.innerHTML = `<p>Username: ${user.username}, Password: ${user.password}</p>`;
+            userListContainer.appendChild(userItem);
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

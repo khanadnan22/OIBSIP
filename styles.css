@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
+}
+
+html, body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: #353535;
+  color: #fff;
+}
+
+::selection {
+  background: #2c2c2c; 
+  color: #fff;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 390px;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #61dafb;
+}
+
+input {
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #555;
+  border-bottom-width: 2px;
+  font-size: 17px;
+  color: #000; 
+  transition: all 0.3s ease;
+}
+  
+input:focus {
+  border-color: #61dafb;
+}
+
+input::placeholder {
+  color: #999;
+  transition: all 0.3s ease;
+}
+
+input:focus::placeholder {
+  color: #b3b3b3;
+}
+
+button {
+  height: 50px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2188e3;
+}
+
+p {
+  margin-top: 10px;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #fff; 
+  margin: 0;
+}
